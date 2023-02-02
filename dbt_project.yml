@@ -38,3 +38,5 @@ models:
     # Config indicated by + and applies to all files under models/example/
     service_status_histories:
       +materialized: table
+    mailcredentials:
+      +materialized: table

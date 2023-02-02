@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+  - name: mailcredentials_transactions
+    description: "A mail credentials dbt model"
+    columns:
+      - name: _id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
