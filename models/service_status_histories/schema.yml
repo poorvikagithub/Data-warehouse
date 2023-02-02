@@ -1,0 +1,23 @@
+
+version: 2
+
+models:
+  - name: service_status_histories
+    description: "A service_status_histories dbt model"
+    columns:
+      - name: _id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - no
+version: 2
+
+models:
+  - name: service_status_histories
+    description: "A service_status_histories dbt model"
+    columns:
+      - name: _id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
