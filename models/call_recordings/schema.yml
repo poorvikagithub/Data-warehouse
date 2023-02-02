@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+  - name: call_recordings
+    description: "A call recordings dbt model"
+    columns:
+      - name: _id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
